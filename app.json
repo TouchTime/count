@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/count/count",
+    "pages/index/index",
+    "pages/index/login/login",
+    "pages/payback/payback",
+    "pages/count/account/account",
+    "pages/count/secondLogin/secondLogin",
+    "pages/index/about/about",
+    "pages/index/feedback/feedback",
+    "pages/index/feedback/problemDetail/problemDetail",
+    "pages/index/feedback/charges/charges",
+    "pages/index/feedback/management/management",
+    "pages/index/feedback/help/help"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#f2f3f5"
+  },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#dec79a",
+    "backgroundColor": "#373737",
+    "list": [
+      {
+        "pagePath": "pages/count/count",
+        "selectedIconPath": "/images/count-noSelect.png",
+        "iconPath": "/images/count-select.png",
+        "text": "统计"
+      },
+      {
+        "pagePath": "pages/payback/payback",
+        "selectedIconPath": "/images/received-select.png",
+        "iconPath": "/images/received-noSelect.png",
+        "text": "回款"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "selectedIconPath": "/images/my-select.png",
+        "iconPath": "/images/my-noSelect.png",
+        "text": "我的"
+      }
+    ]
+  }
+}

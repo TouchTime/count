@@ -1,0 +1,90 @@
+page{
+  background:#f2f3f5;
+  overflow-x: hiden;
+  overflow-y: scroll;
+ border-top:1rpx solid #cacbcc;
+}
+.container{
+ position:relative;
+  /* width:100%; */
+  display: flex;
+  flex-direction:row;
+  top:-220rpx;
+  margin:0 30rpx;
+}
+.wechat{
+  margin-left:20rpx;
+}
+.port{
+  width:128rpx;
+  height:128rpx;
+  border-radius: 50%;
+}
+.wechat-name{
+  color:#fff;
+  font-size:36rpx;
+}
+.wechat-info{
+  color:#c2a975;
+  font-size:26rpx;
+  margin-top:24rpx;
+}
+.bind-wechat{
+  color:#8e5b26;
+  font-size: 26rpx;
+  background:#efd4a7;
+  padding:16rpx;
+  border-radius: 16rpx;
+  border:1px solid #bc965f;
+  line-height:62rpx;
+}
+.bind-btn{
+  width:142rpx;
+  height:62rpx;
+  position:absolute;
+  right:0rpx;
+
+}
+.bind-btn image{
+  width:140rpx;
+  height:60rpx;
+}
+.bg{
+  width:100%;
+  height:297rpx;
+}
+.wechat-line{
+  position:relative;
+}
+.wechat-line .wechat-about{
+  width:40rpx;
+  height:40rpx;
+  padding:0 30rpx 0;
+}
+.content{
+  height:303rpx;
+}
+.about{
+  background:#fff;
+  color:#333;
+  font-size:30rpx;
+  padding:22rpx 0 0;
+}
+.list text{
+  display:inline-block;
+   border-bottom:1px solid #e3e4e6;
+    width:650rpx;
+}
+.about text{
+   padding-bottom:32rpx;
+    display:inline-block;
+    vertical-align: middle;
+   margin-top:10rpx;
+}
+.arrow{
+  width:15rpx;
+  height:30rpx;
+  position:absolute;
+  right:30rpx;
+  margin-top:16rpx;
+}

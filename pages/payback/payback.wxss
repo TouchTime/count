@@ -1,0 +1,124 @@
+page{
+  background:#f2f3f5;
+   overflow-x: hiden;
+}
+.section{
+  padding-right:30rpx;
+  background:#fff;
+  height:100rpx;
+  /* width: 100%; */
+  border-top:1rpx solid #cacbcc;
+}
+.section .all-picker{
+  font-size: 28rpx;
+  color:#666666;
+  padding-right:30rpx;
+  border-right:1px solid #ca9a58;
+
+}
+.section .picker{
+  font-size:28rpx;
+  color:#ca9a58;
+  float:right;
+  line-height:100rpx;
+  /* margin-right:30rpx; */
+}
+.time{
+ padding-left:30rpx;
+}
+.pay-data{
+  color:#999999;
+  font-size:26rpx;
+  text-align: center;
+  padding:32rpx 0;
+}
+.pay-card{
+  background:#fff;
+  margin:0 20rpx;
+  border-radius: 6rpx;
+}
+.pay-firstLine{
+  padding-top:27rpx;
+
+}
+.pay-store{
+  color:#333333;
+  font-size: 28rpx;
+  padding-left:20rpx;
+  /* margin-top:33rpx; */
+}
+.pay-num{
+  color:#333333;
+  font-size: 28rpx;
+  padding-left:20rpx;
+}
+.out-data{
+  font-size: 24rpx;
+  color:#fefefe;
+  background:#73aa25;
+  padding:8rpx 10rpx;
+  border-radius: 10rpx;
+  position:absolute;
+  right:50rpx;
+  display: inline-block;
+}
+.in-data{
+  font-size: 24rpx;
+  color:#fefefe;
+  background:#d4aa70;
+  padding:8rpx 22rpx;
+  border-radius: 10rpx;
+  position:absolute;
+  right:50rpx;
+  display: inline-block;
+}
+.principal{
+  padding-right:70rpx;
+  /* border-right:1px solid #e3e4e6; */
+}
+.pay-back{
+  border-left:1px solid #e3e4e6;
+
+}
+.principal text{
+  color:#333;
+  font-size: 50rpx;
+}
+.principal view{
+  color:#999999;
+  font-size: 24rpx;
+  /* margin-top:4rpx; */
+  text-align: center;
+}
+.pay-secondLine{
+  display: flex;
+  flex-direction:row;
+  margin:40rpx 65rpx;
+  padding-bottom:42rpx;
+}
+.receive{
+  color:#999;
+  font-size: 24rpx;
+  padding-left:70rpx;
+}
+.money{
+  color:#333;
+  font-size:26rpx;
+  padding-left:20rpx;
+}
+.pay-receive{
+  margin-top:24rpx;
+}
+.pay-no-data{
+  text-align: center;
+  margin-top:180rpx;
+  color:#999999;
+  font-size:32rpx;
+}
+.pay-choose{
+  margin-top:15rpx;
+}
+.pay-choose text{
+  color:#ca9a58;
+  padding:0 14rpx;
+}

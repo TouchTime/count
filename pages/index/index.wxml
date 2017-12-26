@@ -1,0 +1,25 @@
+<view class="content">
+  <image src="/images/portrait_bg.png" class="bg"></image>
+  <view class="container">
+    <image src="/images/port.png" class="port"></image>
+    <view class="wechat">
+      <text class="wechat-name">微信账号</text>
+      <view class="wechat-info">您还没有绑定账号</view>
+    </view>
+    <view class="bind-btn" bindtap="bindViewTap">
+      <image src="/images/bindBtn.png"> </image>
+    </view>
+  </view>
+</view>
+<view class="wechat-line">
+  <view class="about list" bindtap="bindAbout">
+    <image src="/images/about_us.png" class="wechat-about"></image>
+      <text>关于我们</text>
+       <image src="/images/arrow.png" class="arrow"></image>
+  </view>
+  <view class="about" bindtap="bindHelp">
+    <image src="/images/help.png" class="wechat-about"></image>
+    <text>帮助与反馈</text>
+     <image src="/images/arrow.png" class="arrow"></image>
+  </view>
+</view>
